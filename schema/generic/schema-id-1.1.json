@@ -19,8 +19,9 @@
             "type": "string"
         },
         "url": {
-            "description": "The permanent url of the schema.",
-            "type": "string"
+            "description": "A URL to retrieve the schema. If a URL is not specified, it is assumed that the schema can be located using other means.",
+            "type": "string",
+            "format": "uri"
         }
     },
     "required": [
