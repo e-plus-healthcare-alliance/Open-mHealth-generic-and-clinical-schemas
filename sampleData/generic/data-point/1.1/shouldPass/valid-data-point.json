@@ -5,7 +5,8 @@
         "schema_id": {
             "namespace": "omh",
             "name": "physical-activity",
-            "version": "1.0"
+            "version": "1.0",
+            "url": "http://www.openmhealth.org/schema/omh/calories-burned-1.0.json"
         },
         "acquisition_provenance": {
             "source_name": "RunKeeper",
